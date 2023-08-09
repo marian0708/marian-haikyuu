@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+.bg-naranja {
+  background: #fdc830; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f37335,
+    #fdc830
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg-negro {
+  background-color: black;
+}
+header ul {
+  list-style: none !important;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+header ul li {
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+  font-family: "Open Sans", sans-serif !important;
+  list-style: none !important;
+}
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.frases img {
+  height: 300px;
+}
+.fs-1 {
+  font-family: "Open Sans", sans-serif !important;
+  color: white;
+}
+.fs-2 {
+  font-family: "Open Sans", sans-serif !important;
+  color: black;
+}
+
+.fs-4 {
+  font-family: "Open Sans", sans-serif !important;
+  color: black;
+}
+.descripcion {
+  font-family: "Open Sans", sans-serif !important;
+}
+.fs-3 {
+  font-family: "Open Sans", sans-serif !important;
+  color: black;
+}
+.fs-5 {
+  font-family: "Open Sans", sans-serif !important;
+  color: black;
+}
+.bg-imagen {
+  background-image: url(https://i.pinimg.com/564x/f8/a1/98/f8a198eb972ce8bf85f19ea5c9308882.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+.bg-footer {
+  background-image: url(https://i.pinimg.com/564x/13/7b/9e/137b9ea8a0c81aca1f0ae34264319b7b.jpg);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black !important;
+
+}
+
+
+.ovalo {
+  border-radius: 40%;
+}
+
+.escuelas {
+  display: flex;
+  flex-direction: column;
+  background-color: ;
+  align-content: start;
+  justify-content: start;
+  align-items: start;
+}
+
+.esclogo {
+  width: 200px;
+  height: 250px;
+}
+
+.informacion {
+  padding: 20px;
+}
